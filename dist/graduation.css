@@ -29,9 +29,10 @@
     height: 60px;
     margin: auto;
     width: fit-content;
-    font-size: 50px;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
+    font-size: 26px;
+    /* background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); */
+    background-image: linear-gradient(to left, white, white, white, white, white, white);
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
 }
 
