@@ -42,7 +42,7 @@ class Graduate {
           jumpHeight[0] = jumpHeight[0]-10; // -5 for potat, -11 for megaman
         }
         this.ctx.drawImage(
-          ceremony.bananacatSpriteSheet,
+          ceremony.yetiSpriteSheet,
           // grabSprite[0],
           // grabSprite[1], // potat
           // jumpSprite[0], jumpSprite[1], // megaman
@@ -63,7 +63,7 @@ class Graduate {
         }
 
         this.ctx.drawImage(
-          ceremony.bananacatSpriteSheet,
+          ceremony.yetiSpriteSheet,
           // runningSprites[i % runningSprites.length][0], runningSprites[i % runningSprites.length][1],
           flipSprites[4][0], //bananacat
           flipSprites[4][1], //bananacat
@@ -77,7 +77,7 @@ class Graduate {
       } else if (startingPosition[0] > 490) {
         // after landing from diploma catch
         this.ctx.drawImage(
-          ceremony.bananacatSpriteSheet,
+          ceremony.yetiSpriteSheet,
           dashSprites[i % dashSprites.length][0],
           dashSprites[i % runningSprites.length][1],
           spriteSize[0],
@@ -89,7 +89,7 @@ class Graduate {
         );
       } else {
         this.ctx.drawImage(
-          ceremony.bananacatSpriteSheet,
+          ceremony.yetiSpriteSheet,
           runningSprites[i % runningSprites.length][0],
           runningSprites[i % runningSprites.length][1],
           spriteSize[0],

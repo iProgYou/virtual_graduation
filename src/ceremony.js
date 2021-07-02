@@ -6,6 +6,7 @@ class Ceremony {
         this.potatSpriteSheet = new Image();
         this.megamanSpriteSheet = new Image();
         this.bananacatSpriteSheet = new Image();
+        this.yetiSpriteSheet = new Image();
         this.stage = new Image();
         this.audienceChairs = new Image();
         this.diploma = new Image();
@@ -14,6 +15,7 @@ class Ceremony {
         this.potatSpriteSheet.src = "./dist/assets/potat-sprite-sheet.png";
         this.megamanSpriteSheet.src = "./dist/assets/megaman_sprite_sheet.png";
         this.bananacatSpriteSheet.src = "./dist/assets/bananacat.png"
+        this.yetiSpriteSheet.src = "./dist/assets/yeti.png";
         this.stage.src = './dist/assets/pixel_art_stage.png';
         this.stage.src = './dist/assets/new_stage.png';
         this.audienceChairs.src = "./dist/assets/theatre_chairs.png";
@@ -39,7 +41,7 @@ class Ceremony {
             this.ctx.drawImage(this.audienceChairs, 20, 349, 850, 70)
             this.ctx.drawImage(this.audienceChairs, 20, 349, 850, 130)
             // this.ctx.drawImage(this.potatSpriteSheet,
-            this.ctx.drawImage(this.bananacatSpriteSheet,
+            this.ctx.drawImage(this.yetiSpriteSheet,
                 waitingSprite[0], waitingSprite[1],
                 spriteSize[0], spriteSize[1],
                 80, 245,
